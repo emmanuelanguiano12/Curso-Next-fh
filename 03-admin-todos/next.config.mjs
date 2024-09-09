@@ -1,4 +1,9 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+import { hostname } from 'os';
 
-export default nextConfig;
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    images:{
+        domains: ['tailus.io',],
+    }
+};
+export default nextConfig; 
